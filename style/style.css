@@ -1,6 +1,98 @@
-h1 {
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+@font-face {
+    font-family: miama;
+    src: url(../assets/miama-font/Miama.ttf);
+}
+body {
+    font-family: "Inter", sans-serif;
+    background: rgb(0, 0, 0);
+    color: white;
+}
+/* h1 {
+    font-family: "miama", sans-serif;
+} */
+.container {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+
+/* header-starts-here */
+header {
+    width: 100%;
+    min-height: 715px;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    border: red 2px solid;
+}
+nav {
+    border: red 2px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 46px;
+    margin-top: 57px;
+}
+.logo a {
+    color: rgb(230, 83, 60);
+    font-size: 36px;
+    font-weight: 800;
+    text-decoration: none;
+    font-style: italic;
+}
+.menu {
+    width: 465px;
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu ul li a {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 46px;
+    padding: 8px 20px 8px 20px;
+}
+.menu ul li a:hover,
+.menu ul li .active {
+    background: rgb(230, 83, 60);
+}
+
+
+
+/* header-ends-here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 576px) {
     h1 {
