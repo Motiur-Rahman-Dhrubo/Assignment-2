@@ -186,11 +186,66 @@ nav {
 /* header-ends-here */
 
 
-
-
-
-
-
+/* your-habits-starts */
+.your-habits {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.your-habits .container {
+    min-height: 452px;
+}
+.habits-text h2 {
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 14px;
+}
+.habits-text p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    margin-bottom: 58px;
+}
+.img-section {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+.img-box {
+    width: 230px;
+    min-height: 275px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-box img {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    border: 1px rgba(255, 255, 255, 0.5) solid;
+    outline: 5px #1A1A1A solid;
+    margin-bottom: 30px;
+}
+.img-box h2 {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 6px;
+}
+.img-box p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+/* your-habits-ends */
 
 
 
