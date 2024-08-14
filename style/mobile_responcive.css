@@ -311,5 +311,8 @@
     .footer-menu ul li a {
         line-height: 40px;
     }
+    .footer-bottom {
+        min-height: 90px;
+    }
     /* footer-ends */
 }
