@@ -441,11 +441,11 @@ input[type="number"] {
 }
 .input-pair select,
 .input-single select {
-    color: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.3);
 }
 .input-pair select option,
 .input-single select option {
-    background: #7e7e7e;
+    background: red;
 }
 
 
