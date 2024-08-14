@@ -283,7 +283,6 @@ nav {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0.3px;
     margin-bottom: 34px;
 }
 .run-an-extra-left a,
@@ -347,7 +346,6 @@ nav {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0.3px;
     text-align: center;
 }
 .feature-cards {
@@ -409,7 +407,6 @@ nav {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0.3px;
 }
 .bmi-calculator-main {
     background: rgb(34, 34, 34);
@@ -432,7 +429,6 @@ nav {
     color: rgb(255, 255, 255);
     font-size: 28px;
     font-weight: 900;
-    line-height: 120%;
 }
 .bmi-calculator-left h2 {
     margin-bottom: 52px;
@@ -445,7 +441,6 @@ nav {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0.3px;
     margin-bottom: 34px;
 }
 .bmi-table{
@@ -460,7 +455,6 @@ nav {
 }
 .bmi-table tr td {
     color: rgba(255, 255, 255, 0.5);
-    font-family: Inter;
     font-size: 14px;
     font-weight: 400;
 }
@@ -510,7 +504,7 @@ input[type="number"] {
     font-size: 16px;
     font-weight: 400;
     line-height: 22px;
-    padding: 12px 20px 12px 20px;
+    padding: 12px 20px;
     outline: none;
 }
 .input-pair input {
@@ -548,7 +542,6 @@ input[type="number"] {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0.3px;
     text-align: center;
 }
 .our-team-gallery .container {
