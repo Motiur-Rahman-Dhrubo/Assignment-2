@@ -445,7 +445,7 @@ input[type="number"] {
 }
 .input-pair select option,
 .input-single select option {
-    background: red;
+    background: #222222;
 }
 
 
