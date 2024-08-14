@@ -312,6 +312,75 @@ nav {
 }
 /* run-an-extra-ends */
 
+/* uniq-sec-starts */
+.uniq-section {
+    margin-bottom: 100px;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1)), url(../assets/images/exercise6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.uniq-section .container {
+	min-height: 400px;
+}
+.monthly-feature {
+	max-width: 700px;
+	margin: 0 auto;
+	margin-bottom: 70px;
+}
+.monthly-feature h2 {
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 14px;
+    text-align: center;
+}
+.monthly-feature p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+.feature-cards {
+    display: flex;
+    justify-content: space-between;
+}
+.feature-cards .card {
+    width: 300px;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: white;
+    border-radius: 20px;
+    padding: 0 20px;
+    position: relative;
+}
+.feature-cards .card p {
+    color: #0B0B0B;
+    font-size: 13px;
+    line-height: 25px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.feature-cards .card a {
+    color: #0B0B0B;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 500;
+}
+.feature-cards img {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	position: absolute;
+	top: -32px;
+	left: 127px;
+}
+/* uniq-sec-ends */
+
 /* bmi-calculator-starts */
 .bmi-calculator {
     margin-bottom: 88px;
@@ -401,8 +470,8 @@ nav {
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
     -webkit-appearance: none;
-    margin: 0;
 }
+
 input[type="number"] {
     -moz-appearance: textfield;
 }
@@ -590,10 +659,6 @@ footer .container {
     letter-spacing: 0.3px;
     text-align: center;
 }
-
-
-
-
 /* footer-ends */
 
 
