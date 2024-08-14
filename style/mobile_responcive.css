@@ -1,0 +1,126 @@
+@media screen and (max-width: 576px) {
+
+    /* header-starts */
+    header {
+        margin-bottom: 0;
+    }
+    .menu {
+        display: none;
+    }
+    .menu-mob {
+        display: flex;
+        align-items: center;
+    }
+    .menu-mob button {
+        border: none;
+        display: flex;
+        background: transparent;
+        justify-content: center;
+    }
+    .menu-mob button img {
+        height: 24px;
+        width: 24px;
+        cursor: pointer;
+    }
+    nav {
+        min-height: 43px;
+        margin-top: 52px;
+        padding: 0 20px;
+        margin-bottom: 51px;
+    }
+    .header-intro {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .header-intro-left {
+        max-width: 100%;
+        padding: 0 20px;
+        min-height: auto;
+    }
+    .header-intro-left h1 {
+        font-size: 36px;
+        font-weight: 900;
+    }
+    .header-intro-left h1 span {
+        font-size: 72px;
+    }
+    .header-intro-left p br {
+        display: none;
+    }
+    .btn-group {
+        margin-bottom: 48px;
+    }
+    .btn-group a {
+        padding: 0;
+        display: flex;
+        width: 169px;
+        height: 54px;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn-group a:hover {
+        padding: 0;
+    }
+    .header-intro-right {
+        max-width: 100%;
+        min-height: auto;
+        padding: 0 20px;
+    }
+    .box-1 h2 {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 3px;
+    }
+    .box-1 p {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .box-1 {
+        left: 54%;
+        top: 11%;
+        padding: 12px 17px 11px 18px;
+    }
+    .box-2 .text h2 {
+        font-size: 18px;
+        line-height: 18px;
+        margin-bottom: 5px;
+    }
+    .box-2 .text p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .box-2 .circle {
+        height: 30px;
+        width: 30px;
+    }
+    .box-2 .circle img {
+        width: 15px;
+        height: 15px;
+        margin-left: 9px;
+    }
+    .box-2 {
+        left: 9%;
+        top: 46%;
+        gap: 9px;
+        padding: 15px 17px;
+    }
+    /* header-ends */
+
+    /* your-habits-starts */
+    .your-habits {
+        margin-bottom: 66px;
+    }
+    .habits-text h2 {
+        font-size: 32px;
+    }
+    .habits-text p br {
+        display: none;
+    }
+    .img-section {
+        gap: 36px;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* your-habits-ends */
+}
