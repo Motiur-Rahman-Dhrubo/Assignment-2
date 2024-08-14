@@ -285,17 +285,17 @@ nav {
     line-height: 24px;
     margin-bottom: 34px;
 }
-.run-an-extra-left a,
+.run-an-extra-left a, 
 .bmi-calculator-right a {
-    text-decoration: none;
-    background: rgb(230, 83, 60);
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 22px;
-    border-radius: 42px;
-    padding: 16px 40px 16px 40px;
-    display: inline-block;
-    color: rgb(255, 255, 255);
+	text-decoration: none;
+	background: rgb(230, 83, 60);
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 22px;
+	border-radius: 42px;
+	padding: 16px 50px 16px 50px;
+	display: inline-block;
+	color: rgb(255, 255, 255);
 }
 .run-an-extra-left a:hover,
 .bmi-calculator-right a:hover {
