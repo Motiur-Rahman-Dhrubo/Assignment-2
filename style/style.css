@@ -492,9 +492,10 @@ input[type="number"] {
     position: relative;
 }
 .our-team-gallery .container .photo-card img {
-    width: 326px;
-    height: 272px;
-    border-radius: 18px;
+	width: 326px;
+	height: 272px;
+	border-radius: 18px;
+	object-fit: cover;
 }
 .photo-card .text {
 	position: absolute;
