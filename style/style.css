@@ -314,7 +314,7 @@ nav {
 
 /* bmi-calculator-starts */
 .bmi-calculator {
-    margin-bottom: 100px;
+    margin-bottom: 88px;
 }
 .bmi-intro {
     max-width: 671px;
@@ -407,6 +407,7 @@ input[type="number"] {
     -moz-appearance: textfield;
 }
 /* hide-number-controll-btn */
+
   
 
 .input-pair {
@@ -447,10 +448,75 @@ input[type="number"] {
 .input-single select option {
     background: #222222;
 }
-
-
-
 /* bmi-calculator-ends */
+
+/* meet-our-team-starts */
+.meet-our-team {
+    margin-bottom: 88px;
+}
+.our-team-intro {
+    max-width: 670px;
+    min-height: 48px;
+    margin: 0 auto;
+    margin-bottom: 58px;
+}
+.our-team-intro h2 {
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 14px;
+}
+.our-team-intro p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+.our-team-gallery .container {
+	min-height: 605px;
+	border-radius: 18px;
+	background: rgba(255, 255, 255, 0.1);
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-items: center;
+	align-items: center;
+	padding: 20px;
+	gap: 20px;
+}
+.our-team-gallery .container .photo-card {
+    width: 326px;
+    height: 272px;
+    position: relative;
+}
+.our-team-gallery .container .photo-card img {
+    width: 326px;
+    height: 272px;
+    border-radius: 18px;
+}
+.photo-card .text {
+	position: absolute;
+	bottom: 15px;
+	left: 20px;
+}
+.photo-card .text h2 {
+	color: rgb(255, 255, 255);
+	font-size: 20px;
+	font-weight: 900;
+}
+.photo-card .text p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+
+
+/* meet-our-team-ends */
 
 
 
